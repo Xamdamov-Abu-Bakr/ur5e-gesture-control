@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Private installation configuration / poses
+poses.py
+config.local.py
+config.local.ps1
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Downloaded model weights and environment output
+models/
+hand_landmarker.task
+*.onnx
+*.task
+*.log
+logs/
+recordings/
+raw_media/
+private/
+secrets/
+
+# Original/private PDF material: only explicitly curated docs may be added
+docs/*
+!docs/UR5e_Gesture_Control_PUBLIC.pdf
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
